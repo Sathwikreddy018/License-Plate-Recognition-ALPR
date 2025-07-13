@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Deep Learning Specific
+runs/                 # YOLOv8 training logs and intermediate weights
+outputs/              # Generated outputs (cropped plates, visualizations, predictions.csv)
+ocr_model/model_weights/*.pt # Trained model weights (can be large)
+# If you want to include the trained model, remove the line above.
+# If you remove the above line, consider LFS for large files:
+# *.pt filter=lfs diff=lfs merge=lfs -text
+
+# Dataset (if you don't want to upload raw data)
+data/                 # Raw dataset (can be very large, typically not uploaded)
+
+# Operating System Files
+.DS_Store
+Thumbs.db

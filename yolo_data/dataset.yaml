@@ -1,0 +1,6 @@
+path: c:\Users\kattl\OneDrive\Desktop\license_plate_recognition_project\yolo_data # Root path to your dataset (absolute path for robustness)
+train: images/train  # Training images relative to 'path'
+val: images/val      # Validation images relative to 'path'
+
+names:
+  0: license_plate # Class names for your model (single class: license_plate)
