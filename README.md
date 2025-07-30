@@ -254,4 +254,5 @@ Develop a simple web interface (e.g., using Flask or Streamlit) for interactive 
 Containerize the application using Docker for easier deployment and portability.
 
 This project provides a strong foundation for a functional ALPR system, with clear pathways for future enhancements and optimizations.#   L i c e n s e - P l a t e - R e c o g n i t i o n - A L P R  
+ #   L i c e n s e - P l a t e - R e c o g n i t i o n - A L P R  
  
