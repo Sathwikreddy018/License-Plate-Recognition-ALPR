@@ -20,7 +20,8 @@ This repository contains a simplified implementation of an **Automatic License P
 ```bash
 # Clone the repository
 git clone https://github.com/Sathwikreddy018/License-Plate-Recognition-ALPR.git
-cd License-Plate-Recognition-ALPR  ``` 
+cd License-Plate-Recognition-ALPR
+``` 
 
 # Create virtual environment
 python -m venv venv
@@ -56,6 +57,7 @@ Fine-tune OCR with additional training data.
 Experiment with larger YOLOv8 models.
 
 Build a web app or API for deployment.
+
 
 
 
