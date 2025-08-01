@@ -25,13 +25,14 @@ This repository contains a simplified implementation of an **Automatic License P
 2. **Create virtual environment**:
 ```bash
 python -m venv venv
+
 **Activate**:
 ```bash
 .\venv\Scripts\activate     # Windows
 source venv/bin/activate     # macOS/Linux
 
 3. **Install dependencies**:
-
+```bash
 pip install -r requirements.txt
 
 4. **Download the dataset**:
@@ -60,6 +61,7 @@ Build a web app or API for deployment.
 
 Author: Sathwik Reddy
 Internship Assignment @ Soulpage IT Solutions Pvt. Ltd.
+
 
 
 
