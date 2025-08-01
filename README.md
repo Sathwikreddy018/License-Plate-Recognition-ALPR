@@ -20,7 +20,7 @@ This repository contains a simplified implementation of an **Automatic License P
 ```bash
 # Clone the repository
 git clone https://github.com/Sathwikreddy018/License-Plate-Recognition-ALPR.git
-cd License-Plate-Recognition-ALPR
+cd License-Plate-Recognition-ALPR  ``` 
 
 # Create virtual environment
 python -m venv venv
@@ -42,7 +42,8 @@ pip install -r requirements.txt
 -Open the Jupyter notebook:
 jupyter notebook
 
-Output
+
+## **Output**
 Cropped Plates: Saved in outputs/cropped_plates/
 
 Visualizations: Detection results
@@ -55,5 +56,6 @@ Fine-tune OCR with additional training data.
 Experiment with larger YOLOv8 models.
 
 Build a web app or API for deployment.
+
 
 
