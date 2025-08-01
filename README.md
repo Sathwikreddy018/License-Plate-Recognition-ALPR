@@ -15,44 +15,42 @@ This repository contains a simplified implementation of an **Automatic License P
 3. **Post-processing**: OCR output is cleaned and standardized.
 4. **Prediction Output**: Results are saved in a CSV file.
 
-Create virtual environment:
+## **Setup**
 
-bash
-Copy
-Edit
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Sathwikreddy018/License-Plate-Recognition-ALPR.git
+   cd License-Plate-Recognition-ALPR
+
+2. **Create virtual environment**:
+
 python -m venv venv
 # Activate:
 .\venv\Scripts\activate     # Windows
 source venv/bin/activate     # macOS/Linux
-Install dependencies:
 
-bash
-Copy
-Edit
+3. **Install dependencies**:
+
 pip install -r requirements.txt
-Download the dataset:
 
-Google Drive Dataset
+4. **Download the dataset**:
 
+https://drive.google.com/drive/folders/1ThHnUQjkCNTOKXnvySVfpHZxZbYsFfMQ
 Extract and place the data/ folder in the project root.
 
-Run the Pipeline
+5. **Run the Pipeline**
 Open the Jupyter notebook:
 
-bash
-Copy
-Edit
 jupyter notebook
+
 Navigate to notebooks/License_Plate_Recognition.ipynb and run all cells.
 
-Output
-Cropped Plates: Saved in outputs/cropped_plates/
+## **Output**
+**Cropped Plates**: Saved in outputs/cropped_plates/
+**Visualizations**: Detection results
+**Predictions**: Final CSV located at outputs/predictions.csv
 
-Visualizations: Detection results
-
-Predictions: Final CSV located at outputs/predictions.csv
-
-Future Improvements
+## **Future Improvements**
 Fine-tune OCR with additional training data.
 
 Experiment with larger YOLOv8 models.
@@ -61,4 +59,5 @@ Build a web app or API for deployment.
 
 Author: Sathwik Reddy
 Internship Assignment @ Soulpage IT Solutions Pvt. Ltd.
+
 
