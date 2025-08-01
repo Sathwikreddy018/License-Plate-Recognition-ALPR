@@ -23,9 +23,10 @@ This repository contains a simplified implementation of an **Automatic License P
    cd License-Plate-Recognition-ALPR
 
 2. **Create virtual environment**:
-
+```bash
 python -m venv venv
-# Activate:
+**Activate**:
+```bash
 .\venv\Scripts\activate     # Windows
 source venv/bin/activate     # macOS/Linux
 
@@ -59,5 +60,6 @@ Build a web app or API for deployment.
 
 Author: Sathwik Reddy
 Internship Assignment @ Soulpage IT Solutions Pvt. Ltd.
+
 
 
