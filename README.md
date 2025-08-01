@@ -35,12 +35,25 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Download the Dataset
-
 - [Google Drive Dataset](https://drive.google.com/drive/folders/1ThHnUQjkCNTOKXnvySVfpHZxZbYsFfMQ)  
 - Extract and place the `data/` folder in the project root.
 
 #Run the Pipeline
 -Open the Jupyter notebook:
 jupyter notebook
+
+Output
+Cropped Plates: Saved in outputs/cropped_plates/
+
+Visualizations: Detection results
+
+Predictions: Final CSV located at outputs/predictions.csv
+
+Future Improvements
+Fine-tune OCR with additional training data.
+
+Experiment with larger YOLOv8 models.
+
+Build a web app or API for deployment.
 
 
