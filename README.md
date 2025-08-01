@@ -34,15 +34,13 @@ source venv/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-## **Download the Dataset**
+# Download the Dataset
 
 - [Google Drive Dataset](https://drive.google.com/drive/folders/1ThHnUQjkCNTOKXnvySVfpHZxZbYsFfMQ)  
 - Extract and place the `data/` folder in the project root.
 
-## **Run the Pipeline**
-
-Open the Jupyter notebook:
-
-```bash
+#Run the Pipeline
+-Open the Jupyter notebook:
 jupyter notebook
+
 
