@@ -51,15 +51,16 @@ jupyter notebook
 
 ## **Output**
 
-**Cropped Plates**:Saved in outputs/cropped_plates/
-**Visualizations**: Detection results
-**Predictions**: Final CSV located at outputs/predictions.csv
+**Cropped Plates**:Saved in outputs/cropped_plates/.
+**Visualizations**: Detection results.
+**Predictions**: Final CSV located at outputs/predictions.csv.
 
 ## **Future Improvements**
 
 Fine-tune OCR with additional training data.
 Experiment with larger YOLOv8 models.
 Build a web app or API for deployment.
+
 
 
 
